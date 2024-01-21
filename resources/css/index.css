@@ -9,10 +9,9 @@ html,body {
 }
 
 nav {
-    /* background-color: red; */
+    background-color: rgb(158, 28, 181);
     display: flex;
 width: 100vw;
-height: 10vh;
 align-items: center;
 flex-shrink: 0;
 margin: 0;
@@ -31,15 +30,15 @@ height: 9px;
 flex-shrink: 0;
 background: #000;
 border-radius: 4.5px;
-background: linear-gradient(135deg, #E537B9 0%, #C040DF 100%);
+background: linear-gradient(135deg, #88c2d9 0%, #75b8de 100%);
 }
 .nav-text {
-    color: var(--text-text-gray-dark, #292B2E);
+    color: var(--text-text-gray-dark, #e6eaf0);
 font-family: Montserrat !important;
 font-size: 23px;
 font-style: normal;
 font-weight: 600;
-line-height: 24px; /* 104.348% */
+line-height: 24px;
 letter-spacing: 2px;
 }
 
@@ -64,20 +63,15 @@ line-height: 28px; /* 155.556% */
 margin-top: 10px;
 margin-bottom: 32px;
 }
-/* 
-.accordion{
-    margin-right: 152px;
-} */
 
 .card-body h5 {
     color: var(--text-text-gray-dark, #292B2E);
 
-/* H3 */
 font-family: Montserrat !important;
 font-size: 24px;
 font-style: normal;
 font-weight: 700;
-line-height: 32px; /* 133.333% */
+line-height: 32px;
 letter-spacing: 0.1px;
 }
 .accordion-button:not(.collapsed){
@@ -114,16 +108,12 @@ letter-spacing: 0.1px;
     line-height: 32px;
     letter-spacing: 0.1px;
 }
-.accordion{
-    /* overflow: scroll; */
-}
 
 .accordion-item{
    border: none;
 
 }
 .accordion-button:after {
-    order: -1;
     margin-left: 0; 
     margin-right:0.5em;
 }
